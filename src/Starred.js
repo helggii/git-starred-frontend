@@ -47,9 +47,7 @@ export default class Starred extends Component {
 	render() {
 		console.log(`tha repo ${this.state.listOfRepos}`);
 
-		return this.state.loading ? (
-			<div />
-		) : (
+		return (
 			<div>
 				<Header
 					user_name={this.state.user_info.name}

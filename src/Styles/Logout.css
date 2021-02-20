@@ -15,13 +15,8 @@
 	border-radius: 0rem;
 	font-family: Manrope, sans-serif;
 }
-/* .logout_button:hover {
+.logout_button:hover {
 	border-bottom: 1px solid var(--git-dark);
-} */
-
-.logout_button:focus {
-	transition: border 0.2s ease-out;
-	border: 1px solid var(--git-dark);
 }
 
 .logout_button .button_container {
