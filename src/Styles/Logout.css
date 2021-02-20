@@ -1,0 +1,37 @@
+@import '../index.css';
+
+.logout_button {
+	background-color: transparent;
+	margin: 0.3rem;
+	min-width: 7rem;
+	padding: 1.2rem;
+	color: var(--git-dark);
+	font-weight: 600;
+	letter-spacing: px;
+	font-family: ;
+	text-align: center;
+	border-color: transparent;
+	cursor: pointer;
+	border-radius: 0rem;
+	font-family: Manrope, sans-serif;
+}
+/* .logout_button:hover {
+	border-bottom: 1px solid var(--git-dark);
+} */
+
+.logout_button:focus {
+	transition: border 0.2s ease-out;
+	border: 1px solid var(--git-dark);
+}
+
+.logout_button .button_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-width: 3rem;
+}
+
+.button_text {
+	padding: 0.5rem;
+	text-align: center;
+}

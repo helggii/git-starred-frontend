@@ -1,0 +1,44 @@
+@import '../index.css';
+
+.login_button_component {
+	height: auto;
+	display: flex;
+	margin-top: 10rem;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.button {
+	background-color: transparent;
+
+	min-width: 12rem;
+	padding: 1.5rem;
+	color: var(--git-dark);
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: Manrope;
+	text-align: center;
+	border: 1px solid var(--git-dark);
+
+	cursor: pointer;
+}
+
+.button:hover {
+	transition: background-color ease-in-out 0.125s;
+	background-color: #f3f3f3;
+}
+
+.button_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo:hover > path {
+	fill: var(--white);
+}
+
+.button_text {
+	padding: 0.5rem;
+	text-align: center;
+}
