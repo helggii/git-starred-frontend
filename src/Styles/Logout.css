@@ -2,9 +2,8 @@
 
 .logout_button {
 	background-color: transparent;
-	margin: 0.3rem;
-	min-width: 7rem;
-	padding: 1.2rem;
+	min-width: 5rem;
+	padding-bottom: 1rem;
 	color: var(--git-dark);
 	font-weight: 600;
 	letter-spacing: px;
