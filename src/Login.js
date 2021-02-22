@@ -10,9 +10,6 @@ export class Login extends Component {
 	constructor() {
 		super();
 
-		this.state = {
-			data: ''
-		};
 		this.handleLogin = this.handleLogin.bind(this);
 	}
 
