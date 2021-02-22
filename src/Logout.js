@@ -3,12 +3,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './Styles/Logout.css';
-import {
-	BrowserRouter as Link,
-	Router,
-	Switch,
-	withRouter
-} from 'react-router-dom';
+import { BrowserRouter as Link, withRouter } from 'react-router-dom';
 import './Styles/Logout.css';
 
 export const Logout = withRouter(({ history }) => {
@@ -30,24 +25,3 @@ export const Logout = withRouter(({ history }) => {
 });
 
 export default Logout;
-
-// function handleLogout() {}
-
-// function Logout(props) {
-// 	return (
-// 		<div className="logout_button_component">
-// 			<Link to="/">
-// 				<button
-// 					className="logout_button"
-// 					onClick={() => {
-// 						axios.get('/logout');
-// 					}}
-// 				>
-// 					Log out
-// 				</button>
-// 			</Link>
-// 		</div>
-// 	);
-// }
-
-// export default Logout;

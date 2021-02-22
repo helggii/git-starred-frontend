@@ -3,7 +3,6 @@ import axios from 'axios';
 import React, { Component } from 'react';
 import './Styles/Starred.css';
 
-import gh_logo_light from './images/git-mark-light.svg';
 import gh_logo from './images/git-mark.svg';
 import Repo from './Repo';
 import Header from './Header';
@@ -63,7 +62,8 @@ export default class Starred extends Component {
 					</button>
 				) : (
 					<div />
-				)}{' '}
+				)}
+				{'   '}
 				{/* Hides button after the click */}
 				<div className="repos">
 					{this.state.listOfRepos.map((repo) => {
